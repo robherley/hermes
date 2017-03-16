@@ -5,12 +5,17 @@
     "permissions": [
         "tabs"
     ],
-    "omnibox": {
-        "keyword": "her"
+    "commands": {
+        "toggle-feature-foo": {
+          "suggested_key": {
+            "default": "Alt+Q",
+            "mac": "Alt+Q"
+          },
+          "description": "Toggle feature foo"
+        }
     },
     "background": {
         "persistent": false,
-        "scripts": ["omni.js"]
+        "scripts": ["background.js"]
     }
-
 }

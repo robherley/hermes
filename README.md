@@ -1,4 +1,10 @@
+***New In Version 0.2:***
+* Type the key shortcut `Alt-Q` to open up Hermes
+* Added reddit integration, type `r/[subreddit-name]`
+
+---
 ### Hermes - Fast Web Browsing
+
 Hermes is a simple chrome extension that allows a user
 to set custom shortcuts for the chrome omnibox.
 
@@ -6,9 +12,6 @@ to set custom shortcuts for the chrome omnibox.
 
 #### How to Use:
 Download and add as an [unpacked extension](https://developer.chrome.com/extensions/getstarted#unpacked) to chrome.
-
-Once loaded, type the keyword `her` to open Hermes in the omnibox, type the
-desired shortcut and press enter to go to the corresponding URL.
 
 #### How to Edit:
 
@@ -25,5 +28,4 @@ uDict = {
 #### Major TODOs:
 1. Add HTML for users to be able to add custom links within from chrome.
 2. Separate the dictionary into a JSON for storage & editing.
-3. Custom keyword to open Hermes?
-4. Make an icon?
+3. Make an icon?
